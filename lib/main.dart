@@ -568,7 +568,7 @@ class HistoryTab extends StatelessWidget {
                       elevation: 0,
                       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12), side: const BorderSide(color: Colors.white12)),
                       margin: const EdgeInsets.only(bottom: 10),
-                      child: Listile(
+                      child: ListTile(
                         contentPadding: const EdgeInsets.symmetric(horizontal: 15, vertical: 2),
                         title: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
